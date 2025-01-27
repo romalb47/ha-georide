@@ -11,11 +11,6 @@ from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 
 from homeassistant.const import CONF_ACCESS_TOKEN, CONF_CLIENT_ID
 
-from .const import (
-    DOMAIN,
-    TRACKER_ADDED,
-)
-
 from georideapilib.objects import GeoRideAccount
 import georideapilib.api as GeoRideApi
 from georideapilib.socket import GeoRideSocket

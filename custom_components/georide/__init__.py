@@ -1,1 +1,1 @@
-"""Integration de enedis."""
+"""Integration de georide."""
