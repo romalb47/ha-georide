@@ -8,6 +8,7 @@ from homeassistant.helpers import entity_platform
 from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
+from homeassistant.helpers.typing import ConfigType, DiscoveryInfoType
 
 from homeassistant.const import CONF_ACCESS_TOKEN, CONF_CLIENT_ID
 
